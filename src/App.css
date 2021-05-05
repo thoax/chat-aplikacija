@@ -1,0 +1,122 @@
+.App {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+/* header i body */
+.zaglavlje {
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.spremnik { 
+  border-radius: 5px;
+  background-color: black;
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid white;
+  flex-grow: 1;
+  max-width: 600px;
+  margin: auto;
+  overflow: auto;
+  padding-left: 0;
+  width: 100%;
+}
+
+
+
+/* poruke */
+.poruke.moj-tab {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.moj-tab > .sadrzaj .text {
+  background-color: darkturquoise;
+  color: white;
+}
+.moj-tab > .sadrzaj {
+  align-items: flex-end;
+}
+.poruke {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.poruke > .randomColor {
+  border-radius: 5px;
+  height: 95px;
+  width: 95px;
+  display: inline-block;
+  margin: 0 10px -10px;
+}
+.sadrzaj {
+  display: inline-block;
+}
+.sadrzaj > .sillyName {
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.sadrzaj > .vrijeme{
+  text-align: center;
+  color: grey;
+}
+.sadrzaj > .text {
+  padding: 10px;
+  max-width: 400px;
+  margin: 0;
+  border-radius: 25px;
+  background-color: grey;
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+
+
+/* unos podataka i greške */
+form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  width: 100%;
+}
+.greska {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  flex-grow: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+}
